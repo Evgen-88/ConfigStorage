@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:boardgamerent;DB_CLOSE_DELAY=-1
+    username: evgen
+    password: evgen
+    driver-class-name: org.h2.Driver
+  flyway:
+    locations: classpath:db/migration/h2
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+
+  profiles:
+    active: info
+
+logging:
+  profile:
+    info: src/test/resources/log4j_test.properties
+    debug: src/test/resources/log4j_test.properties
+
+jwt:
+  secret: konoplyanik
+  expiration: 7200000
+  issuer: itrex
