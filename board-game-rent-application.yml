@@ -12,9 +12,6 @@ spring:
     hibernate:
       ddl-auto: none
 
-  profiles:
-    active: debug
-
 logging:
   profile:
     info: src/main/resources/log4j_info.properties
