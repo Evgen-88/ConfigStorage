@@ -13,7 +13,7 @@ spring:
       ddl-auto: none
 
   profiles:
-    active: info
+    active: debug
 
 logging:
   profile:
