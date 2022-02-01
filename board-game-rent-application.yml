@@ -21,3 +21,6 @@ jwt:
   secret: konoplyanik
   expiration: 7200000
   issuer: itrex
+
+check:
+  message: {cypher}555510f2f6752f55395a3d3579b739f4f9536fbca8e5ad16b901872cae71220a2d965e9ce235a0f2a693c97e73eb5499
