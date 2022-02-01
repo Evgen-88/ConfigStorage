@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/boardgamerent
     username: evgen
-    password: evgen
+    password: {cypher}471389ddf19b6599f3e33af0113e7a75849372960f54675a2dc441d3cc4c08be
     driver-class-name: com.mysql.cj.jdbc.Driver
   flyway:
     locations: classpath:db/migration/mysql
@@ -21,6 +21,3 @@ jwt:
   secret: konoplyanik
   expiration: 7200000
   issuer: itrex
-
-check:
-  message: {cypher}555510f2f6752f55395a3d3579b739f4f9536fbca8e5ad16b901872cae71220a2d965e9ce235a0f2a693c97e73eb5499
