@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:h2:mem:boardgamerent;DB_CLOSE_DELAY=-1
     username: evgen
-    password: evgen
+    password: '{cipher}47a91a4c7904957dafe5ae6f347f390e15a49791ae9e7dd5d41964f37cc381db'
     driver-class-name: org.h2.Driver
   flyway:
     locations: classpath:db/migration/h2

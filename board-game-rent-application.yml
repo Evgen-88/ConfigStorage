@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/boardgamerent
     username: evgen
-    password: '{cipher}471389ddf19b6599f3e33af0113e7a75849372960f54675a2dc441d3cc4c08be'
+    password: '{cipher}47a91a4c7904957dafe5ae6f347f390e15a49791ae9e7dd5d41964f37cc381db'
     driver-class-name: com.mysql.cj.jdbc.Driver
   flyway:
     locations: classpath:db/migration/mysql
